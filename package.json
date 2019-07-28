@@ -1,0 +1,33 @@
+{
+  "name": "ci-node-app",
+  "version": "1.0.0",
+  "description": "learning ci with jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankazela/ci-node-app.git"
+  },
+  "keywords": [
+    "jest",
+    "jenkins",
+    "node",
+    "express"
+  ],
+  "author": "Yannick K. Kazadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankazela/ci-node-app/issues"
+  },
+  "homepage": "https://github.com/yankazela/ci-node-app#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "express": "^4.17.1",
+    "jest": "^24.8.0"
+  }
+}
